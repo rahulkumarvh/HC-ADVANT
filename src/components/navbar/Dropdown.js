@@ -1,6 +1,7 @@
 import React from "react";
 import { FaTimes } from "react-icons/fa";
 import styled from "styled-components";
+import { HashLink as NLink } from "react-router-hash-link";
 import { Button } from "../Button";
 import { Link } from "react-router-dom";
 import { menuData } from "../../data/MenuData";
@@ -59,6 +60,23 @@ const DropdownLink = styled(Link)`
     color: #000d1a;
   }
 `;
+
+const DLink = styled(Link)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+
+  &::hover {
+    color: #000d1a;
+  }
+`;
+
 const BtnWrap = styled.div`
   display: flex;
   justify-content: center;
@@ -72,11 +90,21 @@ const Dropdown = ({ isOpen, toggle }) => {
       </Icon>
       <DropdownWrapper>
         <DropdownMenu>
+          <DropdownLink>
+            <NLink smooth to="/#top">
+              Home
+            </NLink>
+          </DropdownLink>
           {menuData.map((item, index) => (
             <DropdownLink to={item.link} key={index}>
               {item.title}
             </DropdownLink>
           ))}
+          <DropdownLink>
+            <NLink smooth to="/#about-section">
+              About
+            </NLink>
+          </DropdownLink>
         </DropdownMenu>
         <BtnWrap>
           <Button primary="true" round="true" big="true" to="/contact">

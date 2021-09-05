@@ -1,6 +1,7 @@
 import React, { useState, Component } from "react";
 import styled, { css } from "styled-components/macro";
 import { Link } from "react-router-dom";
+import { HashLink as NLink } from "react-router-hash-link";
 import Scroll from "react-scroll";
 import { menuData } from "../../data/MenuData";
 import { Button } from "../Button";
@@ -95,14 +96,17 @@ const Navbar = ({ toggle }) => {
       </Logo>
       <MenuBars onClick={toggle} />
       <NavMenu>
+        <NLink className="pr-4 text-white" smooth to="/#top">
+          Home
+        </NLink>
         {menuData.map((item, index) => (
           <NavMenuLinks className="pr-4" to={item.link} key={index}>
             {item.title}
           </NavMenuLinks>
         ))}
-        <NavMenuLinks className="pr-4" to={"/"}>
+        <NLink className="pr-4 text-white" smooth to="/#about-section">
           About
-        </NavMenuLinks>
+        </NLink>
       </NavMenu>
       <NavBtn>
         <Button to="/contact" primary="true">
