@@ -10,6 +10,7 @@ const HeroSection = styled.section`
   max-height: 1100px;
   position: relative;
   overflow: hidden;
+  margin-top: 0px;
 `;
 
 const HeroWrapper = styled.div`
@@ -74,7 +75,7 @@ const HeroContent = styled.div`
 
   h1 {
     font-size: clamp(1rem, 8vw, 2rem);
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
     text-align: left;
@@ -84,6 +85,7 @@ const HeroContent = styled.div`
   p {
     margin-bottom: 1.2rem;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    font-size: clamp(1rem, 8vw, 2rem);
   }
 `;
 const Arrow = styled(IoMdArrowRoundForward)`
@@ -111,7 +113,7 @@ const arrowButtons = css`
   transition: 0.3s;
 
   &:hover {
-    background: #cd853f;
+    background: #ffb830;
     transform: scale(1.05);
   }
 `;

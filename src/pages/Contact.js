@@ -1,85 +1,96 @@
-import React, { useState } from "react";
-import { contact } from "../api";
+import React from "react";
+import { GrInstagram, GrFacebook, GrTwitter } from "react-icons/gr";
 
 const Contact = () => {
   return (
-    <>
-      <div>
-        <section className="text-white body-font relative">
-          <div className="absolute inset-0 bg-gray-300">
-            <iframe
-              title="map"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13223.82301115605!2d-118.2428689!3d34.0450061!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x67e71b992ee6b314!2sKatz-Entertainment!5e0!3m2!1sen!2sin!4v1629514818746!5m2!1sen!2sin"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowfullscreen=""
-              loading="lazy"
-            ></iframe>
-          </div>
-          <div className="container px-5 py-24 mx-auto flex">
-            <div className="lg:w-1/3 md:w-1/2 bg-black rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-              <h2 className="text-red-600 text-lg mb-1 title-font font-bold">
-                Contact Us<span className="text-white">!!!</span>
-              </h2>
-              <p className="leading-relaxed mb-5 text-red-600 md:text-lg">
-                Feel free to reach out to us
-              </p>
-
-              <form>
-                <div>
-                  <div className="relative mb-4">
-                    <label
-                      htmlFor="name"
-                      className="leading-7 text-sm text-white"
-                    >
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      className="w-full bg-gray-200 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                    />
-                  </div>
-                  <div className="relative mb-4">
-                    <label
-                      htmlFor="email"
-                      className="leading-7 text-sm text-white"
-                    >
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      className="w-full bg-gray-200 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                    />
-                  </div>
-                  <div className="relative mb-4">
-                    <label
-                      htmlFor="message"
-                      className="leading-7 text-sm text-white"
-                    >
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      className="w-full bg-gray-200 rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-                    ></textarea>
-                  </div>
-                  <button className="text-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-red-700 rounded text-lg">
-                    Submit
-                  </button>
-                </div>
-              </form>
+    <div className="font-sans">
+      <h1 className="py-8 text-5xl text-center font-light">Contact Us</h1>
+      <div className="px-2 bg-pink-100 flex flex-col justify-around items-center md:flex-row md:px-6 ">
+        <div className="py-8 text-2xl text-center font-light">
+          <h1 className="font-semibold">Mail us at:</h1>
+          <p className="text-grey-500">info@technotask.co.in</p>
+        </div>
+        <div className="py-8 text-2xl text-center font-light">
+          <h1 className="font-semibold">Contact Us:</h1>
+          <p className="text-grey-500">+91 94330 32220</p>
+        </div>
+      </div>
+      <div className="p-6 bg-pink-200 flex flex-col justify-center items-center md:flex-row md:p-2">
+        <div className="w-full md:w-2/5">
+          <h1 className="w-full text-2xl text-center mb-5">
+            Looking for help? Fill in the form and one of our experts will get
+            in emailuch with you.
+          </h1>
+          <div className="flex justify-center items-center">
+            <div className=" m-2 cursor-pointer hover:text-red-500">
+              <GrInstagram size={42} />
+            </div>
+            <div className="m-2 cursor-pointer hover:text-blue-500">
+              <GrFacebook size={42} />
+            </div>
+            <div className="m-2 cursor-pointer hover:text-blue-500">
+              <GrTwitter size={42} />
             </div>
           </div>
-        </section>
+        </div>
+        <div className="w-full p-2 md:p-6 md:w-3/5">
+          <form action="">
+            <div className="w-full p-2 md:px-6">
+              {" "}
+              <label className="pr-2" htmlFor="name">
+                Name:
+              </label>
+              <input
+                className="w-full px-2 py-1 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600"
+                type="text"
+                name="name"
+              />
+            </div>
+            <div className=" w-full p-2 md:px-6">
+              {" "}
+              <label className="pr-2" htmlFor="email">
+                E-Mail:
+              </label>
+              <input
+                className=" w-full px-2 py-1 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600"
+                type="email"
+                name="email"
+              />
+            </div>
+            <div className=" w-full p-2 md:px-6">
+              {" "}
+              <label className="pr-2" htmlFor="subject">
+                Subject:
+              </label>
+              <input
+                className=" w-full px-2 py-1 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600"
+                type="text"
+                name="subject"
+              />
+            </div>
+            <div className=" w-full p-2 md:px-6">
+              {" "}
+              <label className="pr-2" htmlFor="message">
+                Message:
+              </label>
+              <textarea
+                name="message"
+                className=" w-full px-2 py-1 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600"
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <div className="flex justify-center items-center">
+              <input
+                className="px-12 py-2 font-semibold rounded-xl border bg-pink-300 hover:bg-purple-400 transition-colors"
+                type="submit"
+              />
+            </div>
+          </form>
+        </div>
       </div>
-      );
-    </>
+    </div>
   );
 };
 
