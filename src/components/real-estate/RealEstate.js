@@ -206,9 +206,8 @@ const RealEstate = () => {
                   </div>
                   <h3 className="text-3xl font-semibold">HOUSE FOR SALE</h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime mollitia, molestiae quas vel sint commodi repudiandae
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -270,9 +269,8 @@ const RealEstate = () => {
                   </div>
                   <h3 className="text-3xl font-semibold">LAND FOR SALE</h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Maxime mollitia, molestiae quas vel sint commodi repudiandae
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">

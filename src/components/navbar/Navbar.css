@@ -5,3 +5,8 @@
 .navbar.colorChange {
   background-color: #ffb830;
 }
+
+.active {
+  border-bottom: 3px solid #29b6f6;
+  transition: border-bottom 0.5s ease-in-out;
+}
