@@ -8,7 +8,7 @@ function Products() {
     window.scrollTo(0, 0);
   };
   return (
-    <div>
+    <div id="top">
       <div className="z-30 relative items-center justify-center w-full h-full overflow-auto">
         <div
           className="inset-0 h-screen bg-cover bg-center"

@@ -9,6 +9,7 @@ import Product from "./components/EnRProducts/Products";
 import Careers from "./components/careers/Careers";
 import Footer from "./components/footer/Footer";
 import RealEstate from "./components/real-estate/RealEstate";
+import HR from "./components/hr-consultancy/HR";
 
 function App() {
   const [isOpen, setisOpen] = useState(false);
@@ -26,7 +27,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/real-estate" exact component={RealEstate} />
           <Route path="/careers" component={Careers} />
-          <Route path="/EnR" exact component={Product} />
+          <Route path="/softwares" exact component={Product} />
           <Route path="/contact" exact component={Contact} />
         </Switch>
         <Footer />

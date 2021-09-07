@@ -60,6 +60,7 @@ function Careers() {
     <>
       <div
         className="bg-center bg-cover main-img"
+        id="top"
         style={{
           backgroundImage: `url("/assets/images/careersbanner.jpg")`,
         }}
@@ -171,14 +172,14 @@ function Careers() {
                   />
                 </svg>
 
-                <span className="mt-2 text-center">
-                  Block O, Suite 01, Road 1,Ikota Shopping Complex,Victoria
-                  Garden City, Lekki,Lagos, Nigeria.
+                <span className="mt-2">
+                  Block O, Suite 01, Road 1,<br></br> Ikota Shopping
+                  Complex,Victoria Garden City,<br></br> Lekki,Lagos, Nigeria.
                 </span>
               </a>
 
               <a
-                href="tel:+919433032220"
+                href="tel:+2348034937297"
                 className="flex flex-col items-center px-4 py-3 text-black rounded-md dark:text-gray-800 hover:bg-black hover:text-white dark:hover:bg-blue-500"
               >
                 <svg
@@ -191,7 +192,7 @@ function Careers() {
                 </svg>
 
                 <span className="mt-2">01-4537709</span>
-                <span className="mt-2">08034937297</span>
+                <span className="mt-2">+234 803-493-7297</span>
               </a>
 
               <a

@@ -58,6 +58,7 @@ const NavMenu = styled.div`
   display: flex;
   align-items: center;
   margin-right: -48px;
+  font-family: "Roboto", sans-serif;
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -96,15 +97,28 @@ const Navbar = ({ toggle }) => {
       </Logo>
       <MenuBars onClick={toggle} />
       <NavMenu>
-        <NLink className="pr-4 text-white" smooth to="/#top">
+        <NLink
+          className="pr-4 font-sans font-semibold text-white"
+          smooth
+          to="/#top"
+        >
           Home
         </NLink>
         {menuData.map((item, index) => (
-          <NavMenuLinks className="pr-4" to={item.link} key={index}>
+          <NLink
+            className="pr-4 font-sans text-white font-semibold"
+            smooth
+            to={`${item.link}#top`}
+            key={index}
+          >
             {item.title}
-          </NavMenuLinks>
+          </NLink>
         ))}
-        <NLink className="pr-4 text-white" smooth to="/#about-section">
+        <NLink
+          className="pr-4 font-sans font-semibold text-white"
+          smooth
+          to="/#about-section"
+        >
           About
         </NLink>
       </NavMenu>

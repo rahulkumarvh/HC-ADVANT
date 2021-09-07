@@ -179,6 +179,24 @@ const InfoSection = ({
           </ColumnRight>
         </Container>
       </Section>
+
+      <Section>
+        <Container className="pl-10 pr-10">
+          <ColumnLeftR>
+            <h1 className="text-3xl font-semibold">Software</h1>
+            <p className="mt-4 text-lg leading-relaxed text-gray-600"> </p>
+            <Button className="mt-10" to="/softwares" primary="true">
+              Software
+            </Button>
+          </ColumnLeftR>
+          <ColumnRightR reverse={reverse}>
+            <img
+              src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1868&q=80"
+              alt="home"
+            />
+          </ColumnRightR>
+        </Container>
+      </Section>
     </>
   );
 };

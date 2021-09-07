@@ -3,7 +3,7 @@ import React from "react";
 const RealEstate = () => {
   return (
     <>
-      <main>
+      <main id="top">
         <div
           className="relative pt-16 pb-32 flex content-center items-center justify-center"
           style={{
