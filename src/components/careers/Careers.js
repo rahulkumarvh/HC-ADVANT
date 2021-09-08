@@ -76,6 +76,7 @@ function Careers() {
           </div>
         </div>
       </div>
+
       <h1 className="text-center text-2xl font-semibold text-black uppercase lg:text-3xl">
         Career at HC ADVANT LIMITED
       </h1>

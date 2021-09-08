@@ -19,8 +19,8 @@ const Homecomp = () => {
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
                   We are a Nigerian topnotch company that specializes in
-                  providing excellent services in HR consultancy, Real estate
-                  and emerging markets.
+                  providing excellent services in HR consultancy, Real estate ,
+                  Emerging Markets and Software Services
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
                   Registered in Nigeria in 2008,HC ADVANT has remained
@@ -101,7 +101,7 @@ const Homecomp = () => {
                   <div className="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-yellow-300">
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
-                  <h3 className="text-3xl font-semibold">Our Virtue</h3>
+                  <h3 className="text-3xl font-semibold">Our Value</h3>
                   <p className="mt-4 text-lg leading-relaxed text-gray-600">
                     Spanning over the years, with a successful streak of
                     excellence, our watchword of maintaining great integrity
