@@ -184,7 +184,12 @@ const InfoSection = ({
         <Container className="pl-10 pr-10">
           <ColumnLeftR>
             <h1 className="text-3xl font-semibold">Software</h1>
-            <p className="mt-4 text-lg leading-relaxed text-gray-600"> </p>
+            <p className="mt-4 text-lg leading-relaxed text-gray-600">
+              We are a one-stop shop for everything in business and strategy.
+              Talking about IT, we have specialists in every field, be it AI,
+              IoT, App Development, Web Development, Cloud Computing, and many
+              more.{" "}
+            </p>
             <Button className="mt-10" to="/softwares" primary="true">
               Software
             </Button>

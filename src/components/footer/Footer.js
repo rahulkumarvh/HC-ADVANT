@@ -31,15 +31,21 @@ const Footer = () => {
                     TEL: +234 803 493 7297
                   </a>
                 </li>
-                <li className="text-base mb-1">
+                <li className="text-base mb-1 mt-2">
                   <a
-                    href="mailto:peteruwadiale@gmail.com"
+                    href="mailto:contact@hcadvant.com"
                     className="hover:dark:text-violet-400"
                   >
-                    peteruwadiale@gmail.com
+                    contact@hcadvant.com | <br></br>
+                  </a>
+                  <a
+                    href="mailto:sales@hcadvant.com"
+                    className="hover:dark:text-violet-400"
+                  >
+                    sales@hcadvant.com
                   </a>
                 </li>
-                <li className="text-sm mb-1">
+                <li className="text-sm mb-1 mt-2">
                   <a
                     href="https://goo.gl/maps/pBSSwrJuJEk88EFU6"
                     className="hover:dark:text-violet-400"

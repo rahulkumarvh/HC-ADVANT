@@ -197,7 +197,7 @@ function Careers() {
               </a>
 
               <a
-                href="mailto:peteruwadiale@gmail.com"
+                href="mailto:contact@hcadvant.com"
                 className="flex flex-col items-center px-4 py-3 text-black rounded-md dark:text-gray-800 hover:bg-black hover:text-white dark:hover:bg-blue-500"
               >
                 <svg
@@ -210,7 +210,7 @@ function Careers() {
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
 
-                <span className="mt-2">peteruwadiale@gmail.com</span>
+                <span className="mt-2">contact@hcadvant.com</span>
               </a>
             </div>
 

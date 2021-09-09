@@ -83,10 +83,12 @@ const RealEstate = () => {
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-400">
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">HOUSE FOR SALE</h6>
+                    <h6 className="text-xl font-semibold">
+                      SERVICED APARTMENT RENTAL{" "}
+                    </h6>
                     <p className="mt-2 mb-4 text-gray-600">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Maxime mollitia, molestiae quas vel sint commodi
@@ -101,10 +103,10 @@ const RealEstate = () => {
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-purple-400">
                       <i className="fas fa-award"></i>
                     </div>
-                    <h6 className="text-xl font-semibold">LAND FOR SALE</h6>
+                    <h6 className="text-xl font-semibold">SHORTLET</h6>
                     <p className="mt-2 mb-4 text-gray-600">
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Maxime mollitia, molestiae quas vel sint commodi
@@ -115,8 +117,45 @@ const RealEstate = () => {
                   </div>
                 </div>
               </div>
-            </div>
 
+              <div className=" flex justify-center">
+                <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                  <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400">
+                        <i className="fas fa-award"></i>
+                      </div>
+                      <h6 className="text-xl font-semibold">HOUSE FOR SALE</h6>
+                      <p className="mt-2 mb-4 text-gray-600">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maxime mollitia, molestiae quas vel sint commodi
+                        repudiandae consequuntur voluptatum laborum numquam
+                        blanditiis harum quisquam eius sed odit fugiat iusto
+                        fuga praesentium optio
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                  <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                    <div className="px-4 py-5 flex-auto">
+                      <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+                        <i className="fas fa-award"></i>
+                      </div>
+                      <h6 className="text-xl font-semibold">LAND FOR SALE</h6>
+                      <p className="mt-2 mb-4 text-gray-600">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maxime mollitia, molestiae quas vel sint commodi
+                        repudiandae consequuntur voluptatum laborum numquam
+                        blanditiis harum quisquam eius sed odit fugiat iusto
+                        fuga praesentium optio
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             <div className="flex flex-wrap items-center mt-32">
               <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
                 <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-red-400">
@@ -138,7 +177,7 @@ const RealEstate = () => {
                     src="https://images.unsplash.com/photo-1451153378752-16ef2b36ad05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1947&q=80"
                     className="w-full align-middle rounded-t-lg"
                   />
-                  <blockquote className="relative p-8 mb-4">
+                  <blockquote className="relative p-8 mb-4 pb-28">
                     <svg
                       preserveAspectRatio="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -154,16 +193,78 @@ const RealEstate = () => {
                         className="text-red-400 fill-current"
                       ></polygon>
                     </svg>
-                    <h4 className="text-xl font-bold text-white">
-                      Top Notch Services
-                    </h4>
-                    <p className="text-md font-light mt-2 text-white">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
-                    </p>
                   </blockquote>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="relative py-20">
+          <div
+            className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+            style={{ height: "80px" }}
+          >
+            <svg
+              className="absolute bottom-0 overflow-hidden"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="none"
+              version="1.1"
+              viewBox="0 0 2560 100"
+              x="0"
+              y="0"
+            >
+              <polygon
+                className="text-white fill-current"
+                points="2560 0 2560 100 0 100"
+              ></polygon>
+            </svg>
+          </div>
+
+          <div className="flex flex-wrap items-center mt-32">
+            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ">
+                <img
+                  alt="..."
+                  src="https://images.unsplash.com/photo-1505798577917-a65157d3320a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                  className="w-full align-middle rounded-t-lg"
+                />
+              </div>
+            </div>
+            <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
+              <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-yellow-400">
+                <i className="fas fa-user-friends text-xl"></i>
+              </div>
+              <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                SERVICED APARTMENT RENTAL
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+                Newly renovated, Corner Piece,3 Bedroom terrace house, @ Lekki
+                County Homes Estate, all rooms ensuite with BQ N2.8M
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-wrap items-center mt-32">
+            <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
+              <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-purple-400">
+                <i className="fas fa-user-friends text-xl"></i>
+              </div>
+              <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                SHORTLET
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+                Newly renovated, Corner Piece,3 Bedroom terrace house, @ Lekki
+                County Homes Estate, all rooms ensuite with BQ N2.8M
+              </p>
+            </div>
+
+            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+              <div className="relative flex flex-col min-w-0 break-words bg-purple-500 w-full mb-6 shadow-lg rounded-lg ">
+                <img
+                  alt="..."
+                  src="https://images.unsplash.com/photo-1619292585355-ab0e3fd509fe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80"
+                  className="w-full align-middle rounded-t-lg"
+                />
               </div>
             </div>
           </div>

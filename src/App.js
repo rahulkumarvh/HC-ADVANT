@@ -10,6 +10,7 @@ import Careers from "./components/careers/Careers";
 import Footer from "./components/footer/Footer";
 import RealEstate from "./components/real-estate/RealEstate";
 import HR from "./components/hr-consultancy/HR";
+import Emerging from "./components/emerging-markets/Emerging";
 
 function App() {
   const [isOpen, setisOpen] = useState(false);
@@ -26,6 +27,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/real-estate" exact component={RealEstate} />
+          <Route path="/emerging-markets" exact component={Emerging} />
           <Route path="/careers" component={Careers} />
           <Route path="/softwares" exact component={Product} />
           <Route path="/contact" exact component={Contact} />
