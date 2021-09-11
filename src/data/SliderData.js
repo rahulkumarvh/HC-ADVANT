@@ -7,7 +7,7 @@ export const SliderData = [
   {
     title: "Lekki County Homes Estate",
     price: "$4,280,000",
-    path: "/rent",
+    path: "/real-estate",
     label: "View Rent",
     image: ImageOne,
     alt: "House",
@@ -15,7 +15,7 @@ export const SliderData = [
   {
     title: "Napia Estate with BQ",
     price: "$4,280,000",
-    path: "/sales",
+    path: "/real-estate",
     label: "View Sales",
     image: ImageTwo,
     alt: "House",
@@ -23,7 +23,7 @@ export const SliderData = [
   {
     title: "Ikota Villa Estate",
     price: "$4,280,000",
-    path: "/sales",
+    path: "/real-estate",
     label: "View Sales",
     image: ImageThree,
     alt: "House",
@@ -31,7 +31,7 @@ export const SliderData = [
   {
     title: "Thomas Estate",
     price: "$4,280,000",
-    path: "/sales",
+    path: "/real-estate",
     label: "View Sales",
     image: ImageFour,
     alt: "House",

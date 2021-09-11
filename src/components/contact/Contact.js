@@ -47,6 +47,7 @@ function Contact() {
     <>
       <div
         className="bg-center bg-cover main-img mb-5"
+        id="top"
         style={{
           backgroundImage: `url("/assets/images/contactbanner.jpg")`,
         }}

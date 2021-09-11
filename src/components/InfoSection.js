@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Button } from "./Button";
 import consult from "../images/consult.jpg";
 import emerging_market from "../images/emerging-market.jpg";
+import { HashLink as NLink } from "react-router-hash-link";
 
 const Section = styled.section`
   width: 100%;
@@ -119,8 +120,10 @@ const InfoSection = ({
               <br></br>
               renovations and repairs and construction.
             </p>
-            <Button className="mt-10" to="/real-estate" primary="true">
-              View Real Estate
+            <Button className="mt-10" primary="true">
+              <NLink smooth to="/real-estate#top">
+                View Real Estate
+              </NLink>
             </Button>
           </ColumnLeft>
           <ColumnRight reverse={reverse}>
@@ -142,7 +145,9 @@ const InfoSection = ({
               training and development, and all other HR services.{" "}
             </p>
             <Button className="mt-10" to="/hr-consultancy" primary="true">
-              HR Consultancy
+              <NLink smooth to="/hr-consultancy#top">
+                HR Consultancy
+              </NLink>
             </Button>
           </ColumnLeftR>
           <ColumnRightR reverse={reverse}>
@@ -170,8 +175,10 @@ const InfoSection = ({
               <br></br>
               or old.
             </p>
-            <Button className="mt-10" to="/emerging-markets" primary="true">
-              View Emerging Markets
+            <Button className="mt-10" primary="true">
+              <NLink smooth to="/emerging-markets#top">
+                View Emerging Markets
+              </NLink>
             </Button>
           </ColumnLeft>
           <ColumnRight reverse={reverse}>
@@ -190,8 +197,10 @@ const InfoSection = ({
               IoT, App Development, Web Development, Cloud Computing, and many
               more.{" "}
             </p>
-            <Button className="mt-10" to="/softwares" primary="true">
-              Software
+            <Button className="mt-10" primary="true">
+              <NLink smooth to="/softwares#top">
+                Software
+              </NLink>
             </Button>
           </ColumnLeftR>
           <ColumnRightR reverse={reverse}>

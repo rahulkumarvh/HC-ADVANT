@@ -123,8 +123,8 @@ const Navbar = ({ toggle }) => {
         </NLink>
       </NavMenu>
       <NavBtn>
-        <Button to="/contact" primary="true">
-          Contact Us
+        <Button primary="true">
+          <NLink to="/contact#top">Contact Us</NLink>
         </Button>
       </NavBtn>
     </Nav>
