@@ -50,8 +50,8 @@ const Footer = () => {
                     href="https://goo.gl/maps/pBSSwrJuJEk88EFU6"
                     className="hover:dark:text-violet-400"
                   >
-                    Block O, Suite 01, Road 1,<br></br> Ikota Shopping
-                    Complex,Victoria Garden City,<br></br> Lekki,Lagos, Nigeria.
+                    Block O, Suite 01, Road 1,<br></br> Ikota Shopping Complex,
+                    Victoria Garden City,<br></br> Lekki, Lagos, Nigeria.
                   </a>
                 </li>
               </ul>

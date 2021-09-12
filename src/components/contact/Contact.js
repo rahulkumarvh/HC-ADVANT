@@ -161,8 +161,8 @@ function Contact() {
                 </svg>
 
                 <span className="mt-2">
-                  Block O, Suite 01, Road 1,<br></br> Ikota Shopping
-                  Complex,Victoria Garden City,<br></br> Lekki,Lagos, Nigeria.
+                  Block O, Suite 01, Road 1,<br></br> Ikota Shopping Complex,
+                  Victoria Garden City,<br></br> Lekki, Lagos, Nigeria.
                 </span>
               </a>
 
